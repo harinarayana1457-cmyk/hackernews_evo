@@ -1,11 +1,21 @@
-[README (4).md](https://github.com/user-attachments/files/30176916/README.4.md)
 # HN Insights & Context Expander
 
 
 An automated intelligence layer over top Hacker News stories that extracts the top 20 discussions and enriches them with deep background context, key takeaways, and relevant technical references.
 
 
-## Tech Stack
+# 🚀 Features
+- **Top 20 Tracker** : Real-time sync with official Firebase Hacker News API endpoints to fetch top-ranking stories.
+
+- **Context Generation Layer** : Summarizes linked articles, extracts core arguments, and defines domain-specific jargon.
+
+- **Key Takeaway Extraction** : Synthesizes dense community discussions into concise executive summaries.
+
+- **Entity Mapping** : Automatically links mentioned open-source repos, research papers, or relevant industry milestones.
+
+
+
+# 🛠 Tech Stack
 
 **Frontend / UI** : React, Next.js, Tailwind CSS
 
@@ -15,17 +25,6 @@ An automated intelligence layer over top Hacker News stories that extracts the t
 
 **Deployment** : Vercel / Google Cloud Platform / netlify
 
-
-
-
-## Features
-- **Top 20 Tracker** : Real-time sync with official Firebase Hacker News API endpoints to fetch top-ranking stories.
-
-- **Context Generation Layer** : Summarizes linked articles, extracts core arguments, and defines domain-specific jargon.
-
-- **Key Takeaway Extraction** : Synthesizes dense community discussions into concise executive summaries.
-
-- **Entity Mapping** : Automatically links mentioned open-source repos, research papers, or relevant industry milestones.
 
 
 #  📦 Installation
@@ -82,14 +81,9 @@ npm run start
 
 ```
 
----
-
-## Appendix
-
-If you have any feedback or suggestions on how to improve, please reach out via the contact section on the site or open an issue in this repository!
 
 
-## 🔗 Links
+# 🔗 Links
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hari-narayana-035ba1389/?skipRedirect=true)
 [![My Project](https://img.shields.io/badge/my_project-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://dulcet-eclair-c91d88.netlify.app)
