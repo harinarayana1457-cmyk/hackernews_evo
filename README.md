@@ -1,28 +1,34 @@
+[README (4).md](https://github.com/user-attachments/files/30176916/README.4.md)
 # HN Insights & Context Expander
 
-> An automated intelligence layer over top Hacker News stories that extracts the top 20 discussions and enriches them with deep background context, key takeaways, and relevant technical references.
 
----
+An automated intelligence layer over top Hacker News stories that extracts the top 20 discussions and enriches them with deep background context, key takeaways, and relevant technical references.
 
-## 🚀 Features
 
-* **Top 20 Tracker:** Real-time sync with official Firebase Hacker News API endpoints to fetch top-ranking stories.
-* **Context Generation Layer:** Summarizes linked articles, extracts core arguments, and defines domain-specific jargon.
-* **Key Takeaway Extraction:** Synthesizes dense community discussions into concise executive summaries.
-* **Entity Mapping:** Automatically links mentioned open-source repos, research papers, or relevant industry milestones.
+## Tech Stack
 
----
+**Frontend / UI** : React, Next.js, Tailwind CSS
 
-## 🛠 Tech Stack
+**Data Ingestion** : Official Hacker News Firebase API ([https://hacker-news.firebaseio.com/v0/](https://hacker-news.firebaseio.com/v0/))
 
-* **Frontend / UI:** React, Next.js, Tailwind CSS
-* **Data Ingestion:** Official Hacker News Firebase API (`[https://hacker-news.firebaseio.com/v0/](https://hacker-news.firebaseio.com/v0/)`)
-* **NLP / Enrichment:** LLM Processing Engine / Web Scraping pipeline
-* **Deployment:** Vercel / Google Cloud Platform
+**NLP / Enrichment** : LLM Processing Engine / Web Scraping pipeline
 
----
+**Deployment** : Vercel / Google Cloud Platform / netlify
 
-## 📦 Installation
+
+
+
+## Features
+- **Top 20 Tracker** : Real-time sync with official Firebase Hacker News API endpoints to fetch top-ranking stories.
+
+- **Context Generation Layer** : Summarizes linked articles, extracts core arguments, and defines domain-specific jargon.
+
+- **Key Takeaway Extraction** : Synthesizes dense community discussions into concise executive summaries.
+
+- **Entity Mapping** : Automatically links mentioned open-source repos, research papers, or relevant industry milestones.
+
+
+#  📦 Installation
 
 To get a local development instance up and running, follow these steps:
 
@@ -51,7 +57,7 @@ LLM_API_KEY="your_api_key_here"
 
 
 
----
+
 
 ## 💻 Usage
 
@@ -64,7 +70,7 @@ npm run dev
 
 Navigate to `http://localhost:3000` in your web browser. The application will immediately fetch the top 20 Hacker News posts and populate the context dashboard.
 
----
+
 
 ## 🚢 Deployment
 
@@ -78,13 +84,15 @@ npm run start
 
 ---
 
-## 🤝 Contributing
+## Appendix
 
-Contributions are welcome! If you'd like to improve the context-extraction engine or add new UI visualizations:
+If you have any feedback or suggestions on how to improve, please reach out via the contact section on the site or open an issue in this repository!
 
-1. Fork the project.
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the Branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request.
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hari-narayana-035ba1389/?skipRedirect=true)
+[![My Project](https://img.shields.io/badge/my_project-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://dulcet-eclair-c91d88.netlify.app)
+
+
 
