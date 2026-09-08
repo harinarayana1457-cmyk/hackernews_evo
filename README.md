@@ -1,7 +1,7 @@
 <div align="center">
 
-# 📰 HN INSIGHTS & CONTEXT EXPANDER
-### Automated AI Intelligence Layer & Semantic Summarizer for Hacker News Top Stories
+# 📰 hackernews_evo — Real-Time Stream Ingestion & NLP Summarizer
+### High-Speed Tech Intelligence Pipeline Powered by Firebase REST API, NLP Summarization & Tailwind CSS
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://dulcet-eclair-c91d88.netlify.app)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
